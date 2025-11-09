@@ -199,58 +199,9 @@
       </section>
     </main>
 
+    <script src="phrases.js"></script>
     <script>
-      const PHRASES = [
-        "Bandwidth",
-        "Bang For Your Buck",
-        "Blue Sky Thinking",
-        "Buy-In",
-        "Cadence",
-        "Circle Back",
-        "Deep Dive",
-        "Disruptive",
-        "Get Ducks In A Row",
-        "Hit The Ground Running",
-        "Hard Stop",
-        "Jump Start",
-        "Lean In",
-        "Let's Circle Back",
-        "Let's Take This Offline",
-        "Leverage",
-        "Low Hanging Fruit",
-        "Move The Needle",
-        "Moving Parts",
-        "No Brainer",
-        "Offload",
-        "On The Radar",
-        "Optics",
-        "Pain Points",
-        "Pivot",
-        "Put On The Record",
-        "Reinvent The Wheel",
-        "Singing From The Same Hymn Sheet",
-        "Special Sauce",
-        "Streamline",
-        "Synergy",
-        "The Bottom Line",
-        "There Seems To Be A Disconnect",
-        "Thinking Outside The Box",
-        "Under The Bonnet",
-        "Unpack",
-        "Up The Ladder",
-        "Wheelhouse",
-        "Win-Win",
-        "Ideate",
-        "Right-Sizing",
-        "Future-Proof",
-        "Mission Critical",
-        "Circle Of Excellence",
-        "Touch Base",
-        "Value Add",
-        "Granular",
-        "Tiger Team",
-        "North Star"
-      ];
+      const PHRASES = window.CORPORATE_PHRASES || [];
 
       const gridEl = document.getElementById("bingoGrid");
       const statusEl = document.getElementById("statusMessage");
